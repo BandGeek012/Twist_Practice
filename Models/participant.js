@@ -4,13 +4,13 @@ var Schema = mongoose.Schema;
 
 var ParticipantSchema = new Schema(
   {
-    ParticipantID: {type: String, required: true, max: 100}
+    ParticipantID: {type: String, required: true, max: 100},
     LastName: {type: String, required: true, max: 100},
     FirstName: {type: String, required: true, max: 100},
     Address: {type: String, required: true, max: 100},
     Email: {type: String, required: true, max: 100},
     TimeStamp: {type: Date},
-    ParticipanType: {type: String, required: true, max: 100}
+    ParticipanType: {type: String, required: true, max: 100},
   }
 );
 
